@@ -39,6 +39,10 @@ pipeline {
             steps {
                 sh 'mvn package'
             }
+        } stage('Stage-8 : Deploy to Jfrog') {
+            steps {
+                sh 'mvn deploy'
+            }
         }
     }
 }
