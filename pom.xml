@@ -22,16 +22,16 @@
 
     
     <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0bdlik6tnfce-artifactory-primary-0-snapshots</name>
-        <url>https://devopskesav.jfrog.io/artifactory/libs-snapshot</url>
-    </snapshotRepository>
     <repository>
         <id>central</id>
-        <name>a0bdlik6tnfce-artifactory-primary-0-releases</name>
-        <url>https://devopskesav.jfrog.io/artifactory/libs-releases</url>
-    </repository>	
+        <name>a0vficrqtwukc-artifactory-primary-0-releases</name>
+        <url>https://ayazitin.jfrog.io/artifactory/java-project</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0vficrqtwukc-artifactory-primary-0-snapshots</name>
+        <url>https://ayazitin.jfrog.io/artifactory/java-project</url>
+    </snapshotRepository>
 </distributionManagement>
     
     <dependencies>
