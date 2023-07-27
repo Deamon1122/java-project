@@ -25,4 +25,8 @@ node {
   stage ('Install') {
       sh "'${mvnHome}/bin/mvn' install"
   }
+  stage ('deploy to jfrog')
+      sh "'${mvnHome}/bin/mvn' deploy"
+  }
 }
+
